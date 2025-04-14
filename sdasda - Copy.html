@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextWave Marketing | Digital Growth Experts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-b3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <title>Chart Your Course to Growth | [Your Agency Name]</title>
+    <style>
+        body {
+            font-family: 'Merriweather', serif; /* A classic, slightly weathered serif */
+            margin: 0;
+            line-height: 1.8;
+            background-color: #e0f2f7; /* Light, seafoam-ish blue */
+            color: #263238; /* Deep ocean gray */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        /* Hero Section - Setting Sail! */
+        .hero {
+            background-color: #00a2ff; /* Deeper ocean blue */
+            color: #fff;
+            text-align: center;
+            padding: 180px 20px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('your-nautical-hero.jpg'); /* Replace! Think waves, maps, compasses */
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Like a shadow on the water */
+        }
+
+        .hero h1 {
+            font-size: 4rem; /* Bold, like a ship's name */
+            font-weight: 700;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px; /* Subtle spacing */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sunken treasure glow */
+        }
+
+        .hero .subheadline {
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin-bottom: 50px;
+            opacity: 0.9;
+            font-style: italic; /* Like a captain's log entry */
+        }
+
+        .button {
+            display: inline-block;
+            padding: 16px 35px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .primary-button {
+            background-color: #ffb300; /* Golden like sunset on the sea */
+            color: #263238;
+        }
+
+        .primary-button:hover {
+            background-color: #f57f17; /* Deeper gold */
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .secondary-button {
+            background-color: transparent;
+            color: #fff;
+            border: 2px solid #fff;
+            margin-left: 25px;
+        }
+
+        .secondary-button:hover {
+            background-color: rgba(255, 255, 255, 0.25);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Sections - Navigating the Waters */
+        section {
+            padding: 90px 20px;
+        }
+
+        section h2 {
+            font-size: 3.2rem; /* Strong section titles */
+            text-align: center;
+            margin-bottom: 50px;
+            color: #0288d1;
+            font-weight: 700;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Why Choose Us - Steady as She Goes */
+        .why-choose {
+            background-color: #fff;
+            border-top: 2px solid #e0f2f7; /* Subtle border */
+            border-bottom: 2px solid #e0f2f7;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 50px;
+        }
+
+        .feature {
+            background-color: #f9fbe7; /* Light, sandy color */
+            padding: 45px;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+            border: 1px solid #e0f2f7;
+        }
+
+        .feature:hover {
+            transform: translateY(-7px); /* Like bobbing on a gentle wave */
+        }
+
+        .feature i {
+            font-size: 3.5rem;
+            color: #ffb300; /* Golden compass */
+            margin-bottom: 25px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h3 {
+            margin-bottom: 20px;
+            color: #263238;
+            font-weight: 600;
+        }
+
+        .feature p {
+            color: #546e7a; /* Softer gray */
+            line-height: 1.9;
+        }
+
+        /* Services Section - Charting Our Course */
+        .services {
+            background-color: #eceff1; /* Light gray like a misty sea */
+        }
+
+        .service {
+            background-color: #fff;
+            padding: 45px;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+            border: 1px solid #e0f2f7;
+        }
+
+        .service:hover {
+            transform: translateY(-7px);
+        }
+
+        .service i {
+            font-size: 3.5rem;
+            color: #0288d1; /* Deep blue anchor */
+            margin-bottom: 25px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .service h3 {
+            margin-bottom: 20px;
+            color: #263238;
+            font-weight: 600;
+        }
+
+        .service p {
+            color: #546e7a;
+            line-height: 1.9;
+        }
+
+        /* Testimonials - Tales from the Voyage */
+        .testimonials {
+            background-color: #e0f2f7; /* Light seafoam */
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 50px;
+        }
+
+        .testimonial {
+            background-color: #fff;
+            padding: 45px;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+            border: 1px solid #e0f2f7;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #455a64; /* Blue-gray */
+            margin-bottom: 25px;
+            line-height: 2;
+        }
+
+        .testimonial footer {
+            text-align: right;
+            color: #546e7a;
+            font-size: 1rem;
+        }
+
+        .testimonial footer::before {
+            content: "\2014\00A0"; /* Em dash */
+        }
+
+        /* Call to Action - All Hands on Deck! */
+        .cta {
+            background-color: #0288d1;
+            color: #fff;
+            text-align: center;
+            padding: 140px 20px;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta h2 {
+            color: #fff;
+            font-size: 3.6rem;
+            margin-bottom: 30px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta p {
+            font-size: 1.4rem;
+            margin-bottom: 50px;
+            opacity: 0.9;
+        }
+
+        /* Footer - Safe Harbor */
+        footer {
+            background-color: #263238;
+            color: #b0bec5; /* Light blue-gray */
+            padding: 60px 20px;
+            text-align: center;
+            font-size: 0.95rem;
+        }
+
+        footer a {
+            color: #b0bec5;
+            text-decoration: none;
+            margin: 0 20px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #ffb300; /* Golden highlight */
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 25px;
+        }
+
+        footer ul li {
+            display: inline;
+        }
+
+        footer ul li i {
+            font-size: 1.4rem;
+            margin: 0 10px;
+        }
+
+        footer p {
+            opacity: 0.8;
+            font-style: italic; /* A final log entry */
+        }
+
+        /* Responsive Adjustments - Riding the Waves */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 3rem;
+            }
+            .hero .subheadline {
+                font-size: 1.3rem;
+            }
+            .grid-3, .grid-2 {
+                grid-template-columns: 1fr;
+            }
+            .cta h2 {
+                font-size: 2.8rem;
+            }
+            .cta p {
+                font-size: 1.2rem;
+            }
+            .button {
+                padding: 14px 30px;
+                font-size: 0.95rem;
+            }
+            .secondary-button {
+                margin-left: 10px;
+            }
+        }
+          /* Additional CSS for new components */
+          .alert {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 25px;
+            border-radius: 5px;
+            color: white;
+            z-index: 1001;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .alert.success { background: #4CAF50; }
+        .alert.error { background: #f44336; }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0); }
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .animate {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .animate.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        /* Add to existing CSS */
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: var(--primary);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.cta-button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.cta-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.cta-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover::after {
+    opacity: 1;
+}
+
+/* Loading state */
+.cta-button.loading {
+    pointer-events: none;
+    padding-right: 3.5rem;
+}
+
+.cta-button.loading::before {
+    content: '';
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: -0.6rem;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Disabled state */
+.cta-button:disabled {
+    background: #94a3b8;
+    cursor: not-allowed;
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Form specific styles */
+.contact-form .cta-button {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 1.2rem 2rem;
+}
+
+@media (min-width: 768px) {
+    .contact-form .cta-button {
+        width: auto;
+        min-width: 200px;
+    }
+}
+    </style>
+    <header class="hero">
+        <div class="container">
+            <h1>Chart Your Course to Growth.</h1>
+            <p class="subheadline">Navigate the seas of marketing with our expert guidance and reach your destination.</p>
+            <a href="#contact" class="button primary-button">Hoist the Sails for a Consultation</a>
+            <a href="" class="button secondary-button">Download Our Ship's Log (Free Guide)</a>
+        </div>
+    </header>
+
+    <section class="why-choose">
+        <div class="container">
+            <h2>Why Our Crew?</h2>
+            <div class="grid-3">
+                <div class="feature">
+                    <i class="fas fa-compass"></i>
+                    <h3>Experienced Navigators</h3>
+                    <p>Our seasoned team has charted successful courses across diverse industries.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-map"></i>
+                    <h3>Customized Charts</h3>
+                    <p>We craft unique strategies tailored to your specific voyage and destination.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-anchor"></i>
+                    <h3>Anchored in Results</h3>
+                    <p>We're committed to delivering tangible and lasting achievements for your business.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Clear Signaling</h3>
+                    <p>Transparent communication keeps you informed every step of the way.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-binoculars"></i>
+                    <h3>Forward-Looking Vision</h3>
+                    <p>We keep our eyes on the horizon, implementing the latest marketing innovations.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Trusted Partnership</h3>
+                    <p>We're your reliable first mate, dedicated to your long-term success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Fleet of Services</h2>
+            <div class="grid-3">
+                <div class="service">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO - Finding the Trade Winds</h3>
+                    <p>Improve your visibility in the vast ocean of online search.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-coins"></i>
+                    <h3>PPC - Guiding the Treasure Fleet</h3>
+                    <p>Direct your resources to reach valuable ports quickly.</p>
+                </div>
+                <div class="service">
+                    <i class="fab fa-facebook-f"></i>
+                    <h3>Social Shores - Engaging Your Crew</h3>
+                    <p>Connect with your audience and build a loyal following.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-scroll"></i>
+                    <h3>Content Crafting - Telling Your Tale</h3>
+                    <p>Create compelling stories that resonate with your audience.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Currents - Nurturing Connections</h3>
+                    <p>Build strong relationships through targeted communication.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-ship"></i>
+                    <h3>Web Design - Building Your Flagship</h3>
+                    <p>Create a stunning and effective online presence.</p>
+                </div>
+            </div>
+        </div>
+        <section class="contact" id="contact">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+            <form id="contactForm" class="contact-form" action="https://script.google.com/macros/s/AKfycbxPfJZZ72oA8_K-dyKhX6_6GFwQw2RiFbosrG7IuZwjE8_cc8WDYJxW18JoD6dTf3H5/exec" target="_blank">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="cta-button" required>Send Message</button>
+            </form>
+    </section>
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            mobileMenu.style.display = mobileMenu.style.display === 'block' ? 'none' : 'block';
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+        // Form Validation
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (!name || !email || !message) {
+                showAlert('Please fill in all fields', 'error');
+                return;
+            }
+
+            if (!validateEmail(email)) {
+                showAlert('Please enter a valid email address', 'error');
+                return;
+            }
+
+            // Simulate form submission
+            showAlert('Message sent successfully!', 'success');
+            contactForm.reset();
+        });
+
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }
+
+        function showAlert(message, type) {
+            const alert = document.createElement('div');
+            alert.className = `alert ${type}`;
+            alert.textContent = message;
+            
+            document.body.appendChild(alert);
+            
+            setTimeout(() => {
+                alert.remove();
+            }, 3000);
+        }
+
+        // Scroll Animation
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.animate');
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementTop < windowHeight * 0.8) {
+                    element.classList.add('active');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', animateOnScroll);
+        document.addEventListener('DOMContentLoaded', animateOnScroll);
+
+        // Testimonial Slider
+        let currentTestimonial = 0;
+        const testimonials = document.querySelectorAll('.testimonial');
+        
+        const showTestimonial = (index) => {
+            testimonials.forEach((testimonial, i) => {
+                testimonial.style.display = i === index ? 'block' : 'none';
+            });
+        };
+
+        const nextTestimonial = () => {
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            showTestimonial(currentTestimonial);
+        };
+
+        // Auto-rotate testimonials every 5 seconds
+        setInterval(nextTestimonial, 5000);
+        showTestimonial(0);
+    </script>
+<body>
